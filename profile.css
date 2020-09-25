@@ -1,0 +1,97 @@
+body {
+    background: #f8f8f8;
+}
+
+.fa-eye {
+    color: #f6a72e;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.btn-primary {
+    background: #1a41a2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #1a41a2;
+}
+
+.fa-thumbs-up {
+    color: #1a41a2;
+    font-size: 15px;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.fa-users {
+    color: #d68813;
+    font-size: 15px;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.list-inline {
+    border-bottom: 1px solid #a7a1a1;
+}
+
+.list-inline .list-inline-item a {
+    color: #1a41a2;
+    text-decoration: none;
+}
+
+.stake {
+    background: #d68813;
+    border: none;
+    color:#172842;
+}
+
+.stake:hover {
+    background:#f6a72e;
+    color: #172842;
+}
+
+.details {
+    background: #172842;
+    padding-bottom: 10px;
+
+}
+
+.list-funds {
+    line-height: 40px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.test {
+    float: right;
+}
+
+.badge-name {
+    background: #d68813;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+
+@media(max-width: 320px) {
+
+      .list-funds {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .create-btn {
+        margin-top: 10px;
+    }
+}
